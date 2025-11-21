@@ -7,7 +7,7 @@
 This repository hosts the official landing page for **Hustler OS**, a fintech mobile application that automates M-Pesa tracking, receipt scanning, and smart invoicing for Kenyan entrepreneurs.
 
 🔗 **Live Site:** [https://hustler-os.vercel.app](https://hustler-os.vercel.app)  
-📱 **Mobile App Repo:** [github.com/YourUsername/hustler-os](https://github.com/YourUsername/hustler-os)
+📱 **Mobile App Repo:** [https://github.com/JohnApollos/DataForge-HustlerOS](https://github.com/JohnApollos/DataForge-HustlerOS)
 
 ---
 
@@ -29,7 +29,7 @@ This website was built with a **"Zero-Build"** philosophy for maximum performanc
 hustler-os-web/
 ├── assets/
 │   ├── dashboard.jpg    # Hero screenshot (App Dashboard)
-│   └── favicon.png      # Browser tab icon
+│   └── logo.png         # Browser tab icon
 ├── index.html           # The single-page application
 └── README.md            # You are here
 ```
@@ -42,7 +42,7 @@ Because this project uses the Tailwind CDN, you don't need `npm` or `node_module
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/hustler-os-web.git
+    git clone https://github.com/JohnApollos/hustler-os-web.git
     ```
 2.  **Open `index.html`** in any browser.
       * *Tip:* For the best experience, use the "Live Server" extension in VS Code.
