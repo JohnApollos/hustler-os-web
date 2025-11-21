@@ -6,7 +6,7 @@
 
 This repository hosts the official landing page for **Hustler OS**, a fintech mobile application that automates M-Pesa tracking, receipt scanning, and smart invoicing for Kenyan entrepreneurs.
 
-🔗 **Live Site:** [https://hustler-os.vercel.app](https://hustler-os.vercel.app)  
+🔗 **Live Site:** [https://hustler-os-web.vercel.app](https://hustler-os-web.vercel.app)  
 📱 **Mobile App Repo:** [https://github.com/JohnApollos/DataForge-HustlerOS](https://github.com/JohnApollos/DataForge-HustlerOS)
 
 ---
