@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hustler OS - The Zero-Effort Financial Agent</title>
+    <meta name="description"
+        content="Automate your M-Pesa tracking, receipts, and invoices. The zero-effort financial agent for hustlers.">
+    <meta name="keywords"
+        content="Hustler OS, M-Pesa tracking, expense tracker, receipt scanner, invoice generator, fintech Kenya, SME tools, financial agent">
+    <meta name="author" content="Hustler OS">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://hustleros.com/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hustleros.com/">
+    <meta property="og:title" content="Hustler OS - The Zero-Effort Financial Agent">
+    <meta property="og:description"
+        content="Automate your M-Pesa tracking, receipts, and invoices. The zero-effort financial agent for hustlers.">
+    <meta property="og:image" content="https://hustleros.com/assets/dashboard.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://hustleros.com/">
+    <meta property="twitter:title" content="Hustler OS - The Zero-Effort Financial Agent">
+    <meta property="twitter:description"
+        content="Automate your M-Pesa tracking, receipts, and invoices. The zero-effort financial agent for hustlers.">
+    <meta property="twitter:image" content="https://hustleros.com/assets/dashboard.jpg">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Hustler OS",
+      "operatingSystem": "Android",
+      "applicationCategory": "FinanceApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "KES"
+      },
+      "description": "The zero-effort financial agent for hustlers. Automate M-Pesa tracking, receipts, and invoices.",
+      "featureList": "M-Pesa Auto-Agent, Receipt Scanner, Smart Invoicing",
+      "screenshot": "https://hustleros.com/assets/dashboard.jpg",
+      "author": {
+        "@type": "Organization",
+        "name": "Hustler OS"
+      }
+    }
+    </script>
+
+    <link rel="icon" type="image/png" href="assets/logo.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        background: '#121212',
+                        primary: '#22c55e', // Money Green
+                        'light-gray': '#cbd5e1',
+                    },
+                    fontFamily: {
+                        sans: ['Roboto', 'sans-serif'],
+                        header: ['Montserrat', 'sans-serif'],
+                    },
+                    animation: {
+                        'pulse-glow': 'pulse-glow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    },
+                    keyframes: {
+                        'pulse-glow': {
+                            '0%, 100%': { opacity: 1, boxShadow: '0 0 0 0px rgba(34, 197, 94, 0.7)' },
+                            '50%': { opacity: 1, boxShadow: '0 0 0 15px rgba(34, 197, 94, 0)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .cyberpunk-grid {
+            background-image: linear-gradient(rgba(34, 197, 94, 0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(34, 197, 94, 0.05) 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+    </style>
+</head>
+
+<body class="antialiased overflow-x-hidden">
+
+    <!-- Header -->
+    <header class="absolute top-0 left-0 w-full z-50 px-6 py-6">
+        <div class="container mx-auto max-w-6xl flex items-center">
+            <img src="assets/logo.png" alt="Hustler OS Logo" class="w-10 h-10 mr-3 rounded-xl">
+            <span class="text-xl font-bold font-header tracking-wide">Hustler OS</span>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+        class="relative min-h-screen flex flex-col items-center justify-center px-4 py-20 overflow-hidden cyberpunk-grid">
+        <!-- Background Glow -->
+        <div
+            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/20 rounded-full blur-[120px] -z-10">
+        </div>
+
+        <div class="container mx-auto max-w-6xl flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+
+            <!-- Text Content -->
+            <div class="flex-1 text-center lg:text-left z-10">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
+                    The <span class="text-primary">Zero-Effort</span><br>
+                    Financial Agent for Hustlers.
+                </h1>
+                <p class="text-lg md:text-xl text-light-gray mb-8 max-w-2xl mx-auto lg:mx-0 font-light">
+                    Automate your M-Pesa tracking, receipts, and invoices. <span class="text-white font-semibold">100%
+                        Free.</span>
+                </p>
+
+                <a href="https://github.com/JohnApollos/DataForge-HustlerOS/releases/tag/v2.0-beta"
+                    class="inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-background bg-primary rounded-full transition-all hover:bg-green-400 hover:scale-105 animate-pulse-glow shadow-[0_0_20px_rgba(34,197,94,0.5)]">
+                    <i class="fab fa-android mr-3 text-xl"></i>
+                    Download Beta (Android)
+                </a>
+            </div>
+
+            <!-- Visual Placeholder -->
+            <div class="flex-1 w-full max-w-sm lg:max-w-md relative z-10">
+                <div
+                    class="relative aspect-[9/19] bg-gray-900 rounded-[3rem] border-4 border-gray-800 shadow-2xl overflow-hidden">
+                    <!-- Glowing Border Effect -->
+                    <div
+                        class="absolute inset-0 rounded-[2.8rem] border-2 border-primary/50 shadow-[inset_0_0_20px_rgba(34,197,94,0.2)] pointer-events-none z-20">
+                    </div>
+
+                    <!-- Screen Content -->
+                    <img src="assets/dashboard.jpg" alt="Hustler OS Dashboard"
+                        class="absolute inset-0 w-full h-full object-cover">
+
+                    <!-- Notch -->
+                    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-6 bg-black rounded-b-2xl z-30"></div>
+                </div>
+
+                <!-- Floating Elements Behind -->
+                <div class="absolute -top-10 -right-10 w-20 h-20 bg-primary/10 rounded-full blur-xl animate-pulse">
+                </div>
+                <div class="absolute -bottom-5 -left-5 w-32 h-32 bg-purple-500/10 rounded-full blur-2xl"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section class="py-20 px-4 bg-[#1a1a1a]">
+        <div class="container mx-auto max-w-6xl">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <!-- Feature 1 -->
+                <div
+                    class="bg-gray-900/50 p-8 rounded-2xl border border-gray-800 hover:border-primary/50 transition-colors group">
+                    <div
+                        class="w-14 h-14 bg-gray-800 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
+                        <i class="fas fa-robot text-2xl text-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-white">M-Pesa Auto-Agent</h3>
+                    <p class="text-light-gray leading-relaxed">Securely parses SMS. No manual entry. Tracks every
+                        transaction automatically.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div
+                    class="bg-gray-900/50 p-8 rounded-2xl border border-gray-800 hover:border-primary/50 transition-colors group">
+                    <div
+                        class="w-14 h-14 bg-gray-800 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
+                        <i class="fas fa-camera text-2xl text-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-white">Receipt Scanner</h3>
+                    <p class="text-light-gray leading-relaxed">Snap a photo to log cash expenses. AI extracts the
+                        details instantly.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div
+                    class="bg-gray-900/50 p-8 rounded-2xl border border-gray-800 hover:border-primary/50 transition-colors group">
+                    <div
+                        class="w-14 h-14 bg-gray-800 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
+                        <i class="fas fa-file-invoice-dollar text-2xl text-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-white">Smart Invoicing</h3>
+                    <p class="text-light-gray leading-relaxed">Auto-matches payments to invoices. Keep your books
+                        balanced effortlessly.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Section -->
+    <section class="py-24 px-4 bg-black relative overflow-hidden">
+        <div
+            class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMSIgY3k9IjEiIHI9IjEiIGZpbGw9IiMyMmM1NWUiIGZpbGwtb3BhY2l0eT0iMC4wNSIvPjwvc3ZnPg==')] opacity-30">
+        </div>
+
+        <div class="container mx-auto max-w-4xl text-center relative z-10">
+            <div
+                class="inline-block px-4 py-1 rounded-full border border-primary/30 bg-primary/10 text-primary text-sm font-semibold mb-6 tracking-wider uppercase">
+                <i class="fas fa-shield-alt mr-2"></i> Security First
+            </div>
+            <h2 class="text-4xl md:text-5xl font-bold mb-8 text-white">Loud Privacy.</h2>
+            <p class="text-xl md:text-2xl text-light-gray max-w-3xl mx-auto leading-relaxed">
+                We only read M-Pesa SMS. We <span
+                    class="text-white font-semibold underline decoration-primary decoration-2 underline-offset-4">never</span>
+                touch personal chats. Your data stays on your device.
+            </p>
+        </div>
+    </section>
+
+    <!-- SME Section -->
+    <section class="py-20 px-4 bg-[#121212] border-t border-gray-900">
+        <div class="container mx-auto max-w-5xl flex flex-col md:flex-row items-center justify-between gap-12">
+            <div class="flex-1">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Level Up Your Business.</h2>
+                <p class="text-lg text-light-gray mb-8">
+                    Invoicing & OCR tools built specifically for the Kenyan entrepreneur. Stop wasting time on paperwork
+                    and focus on the hustle.
+                </p>
+                <ul class="space-y-4 mb-8">
+                    <li class="flex items-center text-light-gray">
+                        <i class="fas fa-check-circle text-primary mr-3"></i> Professional Invoices
+                    </li>
+                    <li class="flex items-center text-light-gray">
+                        <i class="fas fa-check-circle text-primary mr-3"></i> Expense Tracking
+                    </li>
+                    <li class="flex items-center text-light-gray">
+                        <i class="fas fa-check-circle text-primary mr-3"></i> Financial Insights
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-1 flex justify-center">
+                <div class="relative">
+                    <div class="absolute inset-0 bg-primary/20 blur-3xl rounded-full"></div>
+                    <i
+                        class="fas fa-chart-line text-9xl text-gray-800 relative z-10 drop-shadow-[0_0_15px_rgba(34,197,94,0.3)]"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-4 bg-black border-t border-gray-900">
+        <div class="container mx-auto max-w-6xl flex flex-col md:flex-row justify-between items-center gap-8">
+
+            <!-- Logo/Copyright -->
+            <div class="text-center md:text-left">
+                <h4 class="text-2xl font-bold text-white mb-2">Hustler OS</h4>
+                <p class="text-gray-500 text-sm">© 2025 Hustler OS. All rights reserved.</p>
+            </div>
+
+            <!-- Links -->
+            <div class="flex items-center gap-6">
+                <a href="mailto:johnapollosolal@gmail.com"
+                    class="text-gray-400 hover:text-primary transition-colors text-2xl" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://wa.me/254745648512?text=Hello%2C%20I%27m%20interested%20in%20Hustler%20OS"
+                    class="text-gray-400 hover:text-primary transition-colors text-2xl" aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-primary transition-colors text-2xl"
+                    aria-label="X (Twitter)">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
